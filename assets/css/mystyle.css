@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+body {
+    padding: 40px 60px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colom-rm {
+    width: 25%;
+}
+
+.card {
+    width: 25%;
+    height: 200px;
+    background-color: bisque;
+}
