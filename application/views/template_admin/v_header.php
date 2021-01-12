@@ -336,7 +336,7 @@
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu" data-widget="tree">
                          <li class="header">MAIN NAVIGATION</li>
-                         <li class="active treeview">
+                         <li class=" treeview">
                               <a href="#">
                                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                                    <span class="pull-right-container">
@@ -356,9 +356,9 @@
                                    </span>
                               </a>
                               <ul class="treeview-menu">
-                                   <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Data POD</a></li>
-                                   <li><a href="index2.html"><i class="fa fa-circle-o"></i> Data Return</a></li>
-                                   <li><a href="index2.html"><i class="fa fa-circle-o"></i> Data SSR</a></li>
+                                   <li class="active"><a href="<?= base_url('Admin/upload_pod') ?>"><i class="fa fa-circle-o"></i> Data POD</a></li>
+                                   <li><a href="<?= base_url('Admin/upload_return') ?>"><i class="fa fa-circle-o"></i> Data Return</a></li>
+                                   <li><a href="<?= base_url('Admin/upload_ssr') ?>"><i class="fa fa-circle-o"></i> Data SSR</a></li>
                               </ul>
                          </li>
                     </ul>
