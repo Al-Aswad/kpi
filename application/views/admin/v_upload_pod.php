@@ -18,11 +18,11 @@
                          <div class="box-header with-border">
                               <h3 class="box-title">Pilih File POD</h3>
                          </div>
-                         <form role="form">
+                         <form action="<?= base_url('admin/upload_pod_aksi') ?>" role="form" enctype="multipart/form-data" method="POST">
                               <div class="box-body">
                                    <div class="form-group">
                                         <label for="exampleInputFile">File input</label>
-                                        <input type="file" id="exampleInputFile">
+                                        <input type="file" id="exampleInputFile" name="file_pod">
 
                                         <p class="help-block">Example block-level help text here.</p>
                                    </div>
